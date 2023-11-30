@@ -1,0 +1,93 @@
+body {
+    font-family: 'Microsoft PhagsPa', sans-serif;
+    background-image: url(registrofondo.webp);
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    margin: 20px;
+  }
+
+  .imagen-sesion {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
+  }
+
+  form {
+    width: 300px;
+    padding: 16px;
+    background-color: rgba(248, 248, 248, 0.6);
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: rgb(125, 192, 197);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  @media screen and (max-width: 480px) {
+    form {
+      width: 90%;
+    }
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    margin-bottom: 15px; 
+}
+
+.icon-container {
+    flex: 0 0 auto; 
+    margin-right: 10px; 
+}
+
+.user {
+    font-size: 20px; 
+}
+
+.input-field {
+    flex: 1;
+}
+
+.form-control {
+    width: 100%; 
+    padding: 8px;
+}
+
+h1{
+    color: rgb(221, 55, 55);
+}

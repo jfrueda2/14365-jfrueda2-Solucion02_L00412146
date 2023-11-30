@@ -1,0 +1,83 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+   font-size: 12px;
+}
+
+.p{
+   color: aliceblue;
+}
+
+.h1{
+   color: aliceblue;
+}
+
+.color1{
+   background-color: black;
+}
+
+.color2{
+   background-color: lightgreen;
+}
+
+.color3{
+   background-color:firebrick;
+}
+
+.container-margin {
+   margin-bottom: 3px;
+}
+
+.row {
+   padding: 2px;
+}
+
+.barra{
+   color: white;
+}
+
+.content {
+   padding: 20px;
+ }
+ 
+ footer {
+   background-color: #3f3f3f;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   bottom: 0;
+   width: 100%;
+ }
+ 
+ .footer-content{
+   display: flex;
+   justify-content: center;
+ }
+ 
+ .footer-content1 a {
+   background-color: #3f3f3f;
+   color: white;
+   text-decoration: none;
+   margin: 0 15px;
+   font-size: 16px;
+ }
+
+ .footer-content2 a {
+   background-color: #3f3f3f;
+   color: white;
+   text-decoration: none;
+   margin: 0 15px;
+   font-size: 16px;
+ }
+
+ 
+ .footer-content3 a {
+   background-color: #333131;
+   color: white;
+   text-decoration: none;
+   margin: 0 15px;
+   font-size: 16px;
+ }
+
+ 

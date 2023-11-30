@@ -1,0 +1,15 @@
+/* styles.css */
+
+.oval-button {
+    width: 430px;
+    background-color: yellow;
+    color: red;
+    border-radius: 25px; /* Ajusta el valor según sea necesario para obtener la forma ovalada deseada */
+  }
+  
+  .home-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}

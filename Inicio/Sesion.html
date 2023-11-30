@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inicio de Sesión</title>
+  <link rel="stylesheet" type="text/css" href="estilosesion.css">
+  <link rel="shortcut icon" href="usuario.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/6c78317db0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <form class="formulario" id="formulario" action="Contenido.html" method="POST">
+    <h2>Login</h2>
+    <img src="usuario.png" alt="sesion" class="imagen-sesion">
+    <div class="container" id="container">
+      <div class="input-container">
+        <div class="icon-container">
+            <span class="user"><i class="fa-solid fa-user"></i></span>
+        </div>
+        <div class="input-field">
+            <input type="text" class="form-control" name="usuario" placeholder="&#9000; Usuario Comandante" required>
+        </div>
+      </div>
+
+      <div class="input-container">
+        <div class="icon-container">
+            <span class="pass"><i class="fa-solid fa-lock"></i></span>
+        </div>
+        <div class="input-field">
+            <input type="password" class="form-control" name="password" placeholder="&#128272; Contraseña Comandante" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <input type="checkbox" id="remember-me" name="remember-me">
+        <label for="remember-me">Recuérdame</label>
+      </div>
+
+      <button type="submit"><i class="fa-brands fa-openid"></i> Ingresar</button>
+      
+      <div class="olvido-contrasena">
+        <a href="#">Se olvidó la contraseña</a>
+      </div>
+    </div>
+  </form>
+  <script src="app.js"></script>
+</body>
+</html>
